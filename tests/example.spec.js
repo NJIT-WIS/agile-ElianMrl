@@ -17,3 +17,13 @@ test("get started link", async ({ page }) => {
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
 });
+
+// Added test required by assignmnet-part3-playwright.md
+
+test("root route returns 200 status code", async ({ page }) => {
+  // Act: Navigate to the root route
+  const response = await page.goto("https://playwright.dev/");
+
+  // Assert: Check if status code is 200
+  expect(response.status()).toBe(200);
+});
