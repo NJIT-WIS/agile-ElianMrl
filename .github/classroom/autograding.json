@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "Playwright",
-      "setup": "cd web && npm install && npx playwright install chromium --with-deps",
-      "run": "npm run test",
+      "setup": "npm install && npx playwright install chromium --with-deps",
+      "run": "npm run tests",
       "input": "",
       "output": "",
       "comparison": "included",
