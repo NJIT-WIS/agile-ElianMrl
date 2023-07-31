@@ -1,0 +1,15 @@
+.container main {
+  display: flex;
+  width: 1440px;
+  padding: 115px 997px 861px 188px;
+  align-items: center;
+}
+
+.title h1 {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
